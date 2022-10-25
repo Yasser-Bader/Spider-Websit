@@ -276,13 +276,13 @@ ul {
 .header .mega-menu .links li a i {
   margin-right: 10px;
 }
-/*.header .main-nav  li  .bi-brightness-high-fill,.bi-moon {
-  margin-bottom:3px;
-  font-size: 20px;
+.header .main-nav  li  .bi-brightness-high-fill,.bi-moon {
+  margin-button:5px;
 }
 .header .main-nav  li  .bi-brightness-high-fill{
   color: #eef10f;
-}*/
+  margin-button:5px;
+}
 .fixed-top{
   position:fixed;
   top:0;
