@@ -1,0 +1,120 @@
+/* Start Codr Tevt */
+
+.code-text {
+  outline-style: solid;
+  outline-width:50px;
+    background: #8f8b8b46;
+    outline: rgb(179, 175, 175);
+    margin:10px;
+    border-radius:20px;
+    -webkit-box-shadow: 0 0 10px rgb(255, 255, 255);
+  -moz-box-shadow: 0 0 10px #ddd;
+  box-shadow: 0 0 15px rgb(139, 139, 139);
+
+}
+.code-error{
+  background: #ffd3c5;
+}
+.code-text p{
+  text-align: left;
+  margin-left: 15px;
+  color: red;
+}
+
+.code-text li {
+  margin: 3px;
+  margin-top:8px;
+}
+.code-text .icon1 {
+  margin-left: 5px;
+  color: red;
+}
+.code-text .icon2 {
+  color:green
+}
+.code-text .tooltip{
+  text-align: right;
+  margin-left: 90%;
+}
+.code-text .code p{
+  margin: 10px;
+  line-height: 0.9;
+}
+.code-text .code .distance{
+  margin-left: 30px;
+}
+.code-text .code .distance4{
+
+  margin-left: 70px;
+
+}
+.code-text .code .code-width p{
+    width: 150vh;
+}
+.code-text .code {
+  margin: 20px;
+  border: rgb(255, 0, 0);
+  outline: rgb(255, 0, 0);
+  background:white;
+  outline-offset: 15px;
+  overflow:auto;
+  margin: 15px;
+  border-radius:5px;
+  -webkit-box-shadow: 0 0 10px rgb(255, 255, 255);
+  -moz-box-shadow: 0 0 10px #ddd;
+  box-shadow: 0 0 10px rgb(139, 139, 139);
+}
+
+.code .if{
+    color:orange;
+    
+}
+.code .print{
+    color:blue;
+}
+.code .comment{
+    color: green;
+}
+.code .number{
+    color:red;
+}
+.code .comment-code{
+    color: #aaa;
+    font-family:'Courier New', Courier, monospace;
+    margin-left: 20px;
+}
+
+
+
+/* ============== copy text ===========*/
+.tooltip { 
+  position: relative;  
+   display: inline-block;
+   list-style: none;
+    }  
+    .tooltip .tooltiptext { 
+          visibility: hidden;  
+          width: 70px;  
+          text-align: center; 
+          border-radius: 61px; 
+          padding: 5px;
+          position: absolute;  
+          z-index: 1;
+          bottom: 20px;
+          left: 300%; 
+          margin-left: -75px;
+          opacity: 0;
+          transition: opacity 0s;
+         }
+    
+    .tooltip:hover .tooltiptext { 
+        visibility: visible;
+        opacity: 1; 
+      }
+      .tooltip li:hover{
+        transform:translateY(3px);
+
+      }
+    
+      /*========================*/
+      
