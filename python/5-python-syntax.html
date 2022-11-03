@@ -7,7 +7,9 @@
     <title>Python Syntax</title>
     <link rel="stylesheet" href="../css/normalize.css" />
     <link rel="stylesheet" href="../css/style.css" />
-        <link rel="stylesheet" href="../css/style-code.css" />
+	<link rel="stylesheet" href="../css/style-code.css" />
+	<link rel="shortcut icon" href="../imgs/icon.png">
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="../css/all.min.css" />
     <!-- Google Fonts -->
@@ -15,46 +17,67 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
-<!-- Google AdSense -->
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5917188673120646" crossorigin="anonymous"></script>
- 
-  </head>
-  <body id="body">
+	<!-- Google AdSense -->
+	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5917188673120646" crossorigin="anonymous"></script>
+  
+	<link rel="stylesheet" href="../css/jquery.mCustomScrollbar.min.css">
+
+</head>
+  <body id="bod">
 	  
+	
+
     <!-- Start Header -->
     <header class="header" id="header">
       <div class="container">
         <a href="../index.html" class="logo"><img src="../imgs/logo.png" alt="logo"></a>
         <ul class="main-nav header-menu-right">
           <li>
-            <a ><i class="bi bi-moon" id="toggleDark"></i></a>
+            <a href="#" ><i class="bi bi-moon" id="toggleDark"></i></a>
           </li>
           <li>
             <a href="../index.html"><i class="fa fa-home"></i></a>
           </li>
-		  <li>
-			<a><i class="menu-list-click fas fa-bars" onclick="openNav()"></i></a>
+
+		<li>
+			<!-- open sidebar menu -->
+			<a class="btn btn-primary btn-customized open-menu " href="#" role="button">
+				<i class="fas fa-align-right"></i> <span></span>
+ 
 		</li>
 
         </ul>
       </div>
     </header>
+	<!-- Wrapper -->
 
+		<!-- Sidebar -->
+		<nav class="sidebar" id="sidebar">
+			<!-- <div class="search">
+				<input type="text" id="mySearch" onkeyup="myFunction()"   placeholder=" إبحث ... " title="إبحث عن درس">
+			</div>-->
+			
+			<ul class="list-unstyled menu-elements " id="myMenu">
+				<li><a href="1-introduction.html">مقدمة عن البايثون</a></li>
+				<li><a href="2-install-python.html"> تنزيل لغة البايثون</a></li>
+				<li><a href="3-install-anaconda.html">Anaconda تحميل وتنصيب </a></li>
+				<li><a href="4-open-anaconda.html">Anaconda تشغيل </a></li>
+				<li><a href="5-python-syntax.html" class="active">طريقة كتابة كود البايثون</a></li>
+				<li><a href="6-python-variables.html">Variables المتغيرات</a></li>
+			
+				
+				<br>
+				<li><p>جاري اعداد المزيد من الدروس</p></li>
+					</ul>
+				</li>
+			</ul>		 
+		</nav>
+		<!-- End sidebar -->
+		
+		<!-- Dark overlay -->
+		<div class="overlay"></div>
 
-    <div id="mySidenav" class="sidenav">
-		<input type="text" id="mySearch" onkeyup="myFunction()" placeholder="بحث عن درس ..." title="Type in a category">
-		<ul id="myMenu">
-      <li><a href="1-introduction.html">مقدمة عن البايثون</a></li>
-      <li><a href="2-install-python.html"> تنزيل لغة البايثون</a></li>
-      <li><a href="3-install-anaconda.html">تحميل وتنصيب Anaconda</a></li>
-      <li><a href="4-open-anaconda.html">تشغيل Anaconda</a></li>
-      <li><a href="5-python-syntax.html" class="active">طريقة كتابة كود البايثون</a></li>
-      <li><a href="6-python-variables.html">المتغيرات Variables</a></li>
-      <br>
-      <li>جاري اعداد المزيد من الدروس</li>
-</ul>
-      </div>
-
+	
 <div class="next-previous">
   <a href="4-open-anaconda.html" class="previous ">&laquo; السابق</a>
   <a href="6-python-variables.html" class="next">التالي &raquo;</a>
@@ -306,7 +329,12 @@
   </div>
   <p class="copyright" rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"> Copyright 2022 <i class="fa fa-copyright"></i><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"> Spider website</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Yasser Bader</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.</p>
   </div>
-  <!-- End Footer -->
-  <script src="../js/main.js"></script>
+ <!-- End Footer -->
+ <script src="../js/jquery-3.3.1.min.js"></script>
+ <script src="../js/jquery.waypoints.min.js"></script>
+ <script src="../js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="../js/scripts.js"></script>
+
+<script src="../js/main.js"></script>
 </body>
 </html>
