@@ -1,4 +1,4 @@
-var menu = document.getElementById('mySidenav');
+var menu = document.getElementById('sidebar');
 var code = document.getElementsByClassName('code'); // class
 var toggle = document.getElementById('toggleDark');
 const body = document.querySelector('body');
@@ -15,7 +15,6 @@ toggle.addEventListener('click', function(){
         body.style.transition = '1s';
         menu.style.background = '#E8E8E8';
         menu.style.color = 'black';
-        menu.style.transition = '1s';
         
        myIndex.style.background = '#F7F7F7';
        myIndex.style.color = 'black';
@@ -33,7 +32,6 @@ toggle.addEventListener('click', function(){
         body.style.transition = '1s';
         menu.style.background = 'black';
         menu.style.color = 'white';
-        menu.style.transition = '1s';
 
         myIndex.style.background = '#424242';
         myIndex.style.color = 'white';
@@ -50,14 +48,14 @@ toggle.addEventListener('click', function(){
 
 
 function openNav() {
-  if (document.getElementById("mySidenav").style.width == "230px") {
-    document.getElementById("mySidenav").style.width = "0";
-    document.getElementById("mySidenav").style.transition = '0s';
+  if (document.getElementById("sidebar1").style.width == "250px") {
+    document.getElementById("sidebar1").style.width = "0";
+    document.getElementById("sidebar1").style.transition = '0s';
    // document.getElementById("main").style.marginRight = "0";
 
   }else{
-    document.getElementById("mySidenav").style.width = "230px";
-    document.getElementById("mySidenav").style.transition = '0s';
+    document.getElementById("sidebar1").style.width = "250px";
+    document.getElementById("sidebar1").style.transition = '0s';
 
     //document.getElementById("main").style.marginRight = "250px";
 
